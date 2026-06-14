@@ -1,8 +1,3 @@
-### قدم دوم: ساخت فایل `README.md`
-
-یک فایل به نام `README.md` در روت پروژه (کنار `manage.py`) بساز و متن انگلیسی زیر را دقیقاً درون آن کپی کن (داکیومنت پروژه‌ها در گیت‌هاب همیشه باید انگلیسی باشد تا پوزیشن حرفه‌ای تو حفظ شود):
-
-```markdown
 # ⚡ Ariana Backend PoC: Async Processing & Caching System
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)
@@ -40,9 +35,9 @@ Ensure you have a local Redis server running on port `6379`.
 
 ### Installation Steps
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Abolfazlparadox/Ariana_PoC.git](https://github.com/Abolfazlparadox/Ariana_PoC.git)
-   cd Ariana_PoC
+```bash
+git clone [https://github.com/Abolfazlparadox/Ariana_PoC.git](https://github.com/Abolfazlparadox/Ariana_PoC.git)
+cd Ariana_PoC
 
 ```
 
@@ -108,15 +103,3 @@ During development on Windows environments, a protocol mismatch arose where mode
 * [LinkedIn](https://www.linkedin.com/in/abolfazl-mohammadshahi-12b87b324)
 * [GitHub](https://github.com/Abolfazlparadox)
 * Email: abolfazlmohammadshahi78@gmail.com
-
-
-
----
-
-### قدم سوم: کامیت نهایی در گیت
-حالا که این دو فایل کلیدی را ساختی، سرور را ببند و دستورات زیر را بزن تا پروژه روی برنچ `main` کاملاً آپدیت و نهایی شود:
-
-```powershell
-git add .
-git commit -m "Docs: Add requirements.txt and comprehensive README documentation for PoC evaluation"
-
